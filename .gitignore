@@ -1,0 +1,38 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+env/
+.venv/
+venv/
+ENV/
+.env
+venv.bak/
+venv.bak/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+
+# Media and static files
+staticfiles/
+media/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Node.js dependencies (for frontend)
+node_modules/
+
+# IDE settings
+.idea/
+.vscode/
+.DS_Store
