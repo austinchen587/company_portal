@@ -1,0 +1,23 @@
+<!--customers/view_customers.html-->
+
+<h1>Customer Data</h1>
+
+<table>
+    <thead>
+        <tr>
+            {% for field in fields %}
+            <th>{{ field }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+
+
+    <tbody>
+        {% for customer n customers %}
+        <tr>
+            <td>{{ customer | getattr:field }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
